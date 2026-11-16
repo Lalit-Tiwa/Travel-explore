@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your trip</title>
+    <link rel="stylesheet" href="booking.css">
+    <script src="booking.js" defer></script>
+</head>
+
+<body>
+
+    <div class="booking-container">
+        <h1>Book Your Trip</h1>
+
+        <p class="booking-heading">
+            Enter your details to reserve your package.
+        </p>
+
+        <form class="bookingForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Enter Number</label>
+                <input type="tel"  id="phone" placeholder="Enter Your Mobile Number " required>
+            </div>
+            <div class="form-group">
+                <label for="persons">Number of Persons</label>
+                <input type="number" id="persons" placeholder="Enter Number Of Persons" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Travel Date</label>
+                <input type="date" id="date" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="package">Select Package</label>
+
+                <select id="package" required>
+                    <option value="">Select Package</option>
+                    <option value="Weekend Escape">Weekend Escape - ₹9,999</option>
+                    <option value="Adventure Trip">Adventure Trip - ₹24,999</option>
+                    <option value="Luxury Vacation">Luxury Vacation - ₹49,999</option>
+                </select>
+
+            </div>
+
+            <button type="submit">
+                Submit Booking
+            </button>
+
+        </form>
+
+        <div id="successMessage" class="success-message">
+
+            <h2>🎉 Booking Successful!</h2>
+
+            <p>
+                Your ticket has been booked successfully.
+            </p>
+
+            <p>
+                Thank you for choosing Explore World.
+            </p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

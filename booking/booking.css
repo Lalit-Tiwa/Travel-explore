@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.booking-container {
+    width: 500px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.booking-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #243f8f;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    background-color: #243f8f;
+}
+
+button:hover {
+    background-color: #1b3172;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #81c784;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+
+}
+
+.success-message h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    margin-top: 7px;
+}
